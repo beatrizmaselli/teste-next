@@ -14,7 +14,7 @@ import { theme } from "../src/theme";
 export default function Home() {
     return (
         <div>
-            Pedacinho de tela
+            Clica aqui
 
             <button className="button">
                 Botão
