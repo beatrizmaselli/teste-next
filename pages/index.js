@@ -1,9 +1,20 @@
 import { theme } from "../src/theme";
 
+/*
+
+# CSS in JS
+## Pro
+- O próprio JS sinaliza erros de "tema" da sua app
+
+##Contra
+- JS rodando concorrendo com outros impactando na perfomance (https://web.dev/i18n/pt/vitals/)
+
+*/
+
 export default function Home() {
     return (
         <div>
-            Pedacinho de tela
+            Clica aqui
 
             <button className="button">
                 Botão
