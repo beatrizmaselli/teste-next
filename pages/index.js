@@ -3,7 +3,7 @@ export default function Home() {
         <div>
             Pedacinho de tela
 
-            <button>
+            <button className="button">
                 Botão
             </button>
 
