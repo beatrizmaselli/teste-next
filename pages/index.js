@@ -10,7 +10,9 @@ export default function Home() {
         <style>
             {`
                 .button{
-                    background-color: #4CAF50
+                    border: 1px solid darkgreen;
+                    background-color: green;
+                    padding: 8px 10px
                 }
             `}
         </style>
