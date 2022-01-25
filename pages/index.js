@@ -10,6 +10,10 @@ import Head from "next/head";
 ##Contra
 - JS rodando concorrendo com outros impactando na perfomance (https://web.dev/i18n/pt/vitals/)
 
+Docs para estudar:
+https://speakerdeck.com/juunegreiros/como-otimizar-seu-site-com-lighthouse-e-core-web-vitals
+https://tailwindcss.com/
+
 */
 
 function Button({children}) {
