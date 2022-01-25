@@ -1,3 +1,11 @@
+const theme = {
+    colors: {
+        primary: {
+            500: 'green',
+        }
+    }
+}
+
 export default function Home() {
     return (
         <div>
@@ -10,8 +18,8 @@ export default function Home() {
         <style>
             {`
                 .button{
-                    border: 1px solid darkgreen;
-                    background-color: green;
+                    border: 2px solid darkgreen;
+                    background-color: ${theme.colors.primary[500]};
                     padding: 8px 10px
                 }
             `}
