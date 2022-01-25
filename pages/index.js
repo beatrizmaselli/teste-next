@@ -1,10 +1,4 @@
-const theme = {
-    colors: {
-        primary: {
-            500: 'green',
-        }
-    }
-}
+import { theme } from "../src/theme";
 
 export default function Home() {
     return (
