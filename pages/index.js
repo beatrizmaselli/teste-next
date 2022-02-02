@@ -1,4 +1,5 @@
 import { theme } from "../src/theme";
+import Head from "next/head";
 
 /*
 
@@ -8,6 +9,10 @@ import { theme } from "../src/theme";
 
 ##Contra
 - JS rodando concorrendo com outros impactando na perfomance (https://web.dev/i18n/pt/vitals/)
+
+Docs para estudar:
+https://speakerdeck.com/juunegreiros/como-otimizar-seu-site-com-lighthouse-e-core-web-vitals
+https://tailwindcss.com/
 
 */
 
@@ -22,7 +27,8 @@ function Button({children}) {
                 border: 1px solid darkgreen;
                 background-color: ${theme.colors.primary[500]};
                 padding: 8px 10px;
-                font-weight: bold
+                font-weight: bold;
+                font-family:'Oswald', sans-serif
                 }
             `}
             </style>
@@ -33,6 +39,14 @@ function Button({children}) {
 export default function Home() {
     return (
         <div>
+            <Head>
+                <link rel="preconnect" href="https://fonts.googleapis.com"/>
+                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+                <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet"/>
+                <title>
+                    Bia - Site
+                </title>
+            </Head>
             Clica aqui
 
             <Button>
